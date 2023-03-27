@@ -11,6 +11,8 @@ public class ToFullScreen {
 		driver.manage().window().maximize();
 		driver.get("https://www.google.com/");
 		driver.manage().window().fullscreen();
+	
+		System.out.println("hello from master branch");	
 	}
 
 }
